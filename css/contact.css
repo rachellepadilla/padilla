@@ -1,0 +1,92 @@
+body {
+	background: maroon;
+	font-family: Century Gothic;
+	text-align: center;
+}
+.menu  {
+    overflow: hidden;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	border-bottom: .5px #000 solid;
+}
+.menu a {
+    float: left;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.menu a:hover {
+    color: gray;
+}
+.map {
+	background: url("../images/maps.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 150px;
+}
+.sf {
+	background: url("../images/sf.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 150px;
+}
+.sky {
+	background: url("../images/sky.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 150px;
+}
+.paa {
+	border-top: .5px #000 solid;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 1.7;
+}
+.fa-facebook {
+    background: white;
+    color: black;
+}
+.fa-twitter {
+    background: white;
+    color: black;
+}
+.fa-youtube {
+    background: white;
+    color: black;
+}
+.fa-instagram {
+    background: white;
+    color: black;
+}
+.paa2 {
+	margin-left: 50px;
+	margin-top: 20px;
+} 	
+.last {
+	background: #E7580C;
+	padding: 5px;
+}
+.last a{
+	color: black;
+	text-decoration: none;
+}
+.last a:hover {
+	color: gray;
+}
